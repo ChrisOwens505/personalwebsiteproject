@@ -1,0 +1,12 @@
+body{
+	background-image: url("me.jpeg");
+	height: auto;
+	width: auto;
+	overflow: auto;
+	position: static;
+}
+.center-list{
+	display: inline;
+	position: fixed;
+}
+center
