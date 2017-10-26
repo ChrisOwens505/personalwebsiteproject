@@ -1,12 +1,18 @@
+head{
+text-align: center;
+	color: antiquewhite;
+}
 body{
-	background-image: url("me.jpeg");
+	background-image: url("black.img");
 	height: auto;
 	width: auto;
 	overflow: auto;
-	position: static;
+	position: absolute;
+	text-align: center;
+	text-decoration-color: antiquewhite;
+
 }
-.center-list{
-	display: inline;
-	position: fixed;
+.text{
+	color: blanchedalmond;
+	border: medium;
 }
-center
