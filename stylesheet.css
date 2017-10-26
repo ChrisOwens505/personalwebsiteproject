@@ -6,11 +6,11 @@ body{
 	background-image: url("black.img");
 	height: auto;
 	width: auto;
-	overflow: auto;
+	overflow: auto-decoration-color: antiquewhite;
+;
 	position: absolute;
 	text-align: center;
-	text-decoration-color: antiquewhite;
-
+	text
 }
 .text{
 	color: blanchedalmond;

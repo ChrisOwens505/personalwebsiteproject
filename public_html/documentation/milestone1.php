@@ -1,10 +1,9 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<img src="metheone.jpeg" height="200px">
 		<meta charset="utf-8">
 		<title> Personal Website</title>
-		<link rel="stylesheet" href="stylesheet.css">
+		<link rel="stylesheet" href="../../stylesheet.css">
 	</head>
 	<body class="text">
 		<h3>Christian Alexander Owens</h3>
