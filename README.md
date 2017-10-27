@@ -36,3 +36,23 @@ This section needs the most work. This should not be written like a dialogue, bu
 - Nice work on adding some CSS - we'll begin to cover this next week!
 
  Unfortunately I can't pass your Milestone 1 until everything is fixed. **Please have the changes done by Monday, October 23rd**, and Slack me if you have any questions or concerns.
+ 
+ ### Milestone 1 Updated Feedback
+ Nice job updating and adding necessary detail to your purpose/audience/goal and Persona. You have enough here to begin a design strategy. Your focus is broad - targeting both potential employers and prospective clients. While this is certainly very do-able, I would advise you that if you're leaning more towards seeking out freelance clients then maybe focus your  design and content around that. There's a big difference between designing a web presence that is intended to drive sales and attract potential clients vs. a web developer portfolio that is part of an IT job search and is designed to be viewed by IT pros specifically.
+
+ The line in the Persona that really stood out to me is: _"Issues: long pages, small lettering, to many colors or distracting buttons, slow loading, inaccurate search results, not being able to easily share a post with friends, and sloppy content placement."_ This tells me that a _refined and modern_ design approach may be what you're looking to achieve here. Something minimal, practical, yet attractive and ultimately very user friendly.
+
+ (_Note: Posts and internal/programmatic search are out-of-scope for PWP - this would require a back-end. Integrating a site search for a one-page site (with a short page scroll) is likely unnecessary._)
+
+ Since you want to take a more general approach and target both potential employers and clients, think of design and content  ideas that are informative enough for IT professionals while being "friendly" enough for potential clients. An elegant yet simple design will give your project a professional "polish" that will highlight your front end skills. Elegant design can be as simple as using one or _maybe_ two colors, a nice font for headings, good quality text content, and a few high quality images. Balance and consistency will make all the difference. It doesn't have to be complicated.
+
+You might like to have a look at [https://www.siteinspire.com/](https://www.siteinspire.com/), and [http://www.htmlinspiration.com/](http://www.htmlinspiration.com/) to get some design inspiration for Milestone 2a. [Pixabay](https://pixabay.com/) is a resource for quality royalty-free stock images that might be useful. Just remember to keep things simple and straightforward due to the narrow scope of the project.
+
+Nice work on making the major fixes and updates to your content and directory structure. There are a few small things that still need to be fixed, see Edits &amp; Suggestions below. 
+
+Unfortunately because the updates were submitted late, I can only pass your Milestone 1 at [Tier I](https://bootcamp-coders.cnm.edu/projects/personal/rubric/). You're clear to begin work on [Milestone 2a](https://bootcamp-coders.cnm.edu/projects/personal/milestone-two/)
+
+#### Edits &amp; corrections
+- *milestone1.php* should be named `milestone-1.php` - small detail I know, but precise file naming is so important. Especially for capstone where they need to be exact otherwise everything can break.
+- create a `css` directory inside of `/documentation`, and move your CSS file there. This is the correct way to organize these files. You'll need to update the path in the `<link>` tag in your HTML to match.
+- Same thing for the image file... create a directory named `images` inside `/documentation`, and move your image there. Update the `src` path in the `<img>` tag to match.
