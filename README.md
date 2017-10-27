@@ -55,4 +55,4 @@ Unfortunately because the updates were submitted late, I can only pass your Mile
 #### Edits &amp; corrections
 - *milestone1.php* should be named `milestone-1.php` - small detail I know, but precise file naming is so important. Especially for capstone where they need to be exact otherwise everything can break.
 - create a `css` directory inside of `/documentation`, and move your CSS file there. This is the correct way to organize these files. You'll need to update the path in the `<link>` tag in your HTML to match.
-- Same thing for the image file... create a directory named `images` inside `/documentation`, and move your image there. Update the `src` path in the `<img>` tag to match.
+- Same thing for the image file... create a directory named `images` inside `/documentation`, and move your image there. Update the `url` path in the CSS stylesheet to match.
