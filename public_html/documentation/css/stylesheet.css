@@ -3,14 +3,13 @@ text-align: center;
 	color: antiquewhite;
 }
 body{
-	background-image: url("black.img");
+	background-image: url("../images/black.img");
 	height: auto;
 	width: auto;
-	overflow: auto-decoration-color: antiquewhite;
-;
+	overflow: auto;
+	text-decoration-color: antiquewhite;
 	position: absolute;
 	text-align: center;
-	text
 }
 .text{
 	color: blanchedalmond;

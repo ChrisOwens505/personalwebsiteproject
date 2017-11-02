@@ -3,7 +3,7 @@
 	<head>
 		<meta charset="utf-8">
 		<title> Personal Website</title>
-		<link rel="stylesheet" href="../../stylesheet.css">
+		<link rel="stylesheet" href="css/stylesheet.css">
 	</head>
 	<body class="text">
 		<h3>Christian Alexander Owens</h3>
@@ -38,7 +38,7 @@
 			<li><strong>Tech:</strong> uses a mac book pro, but still has an Samsung Galaxy s4. Plays games on his Playstation 4, but sometimes enjoys to play steam on his alienware desktop</li>
 		</ul>
 		<p>
-		Mac Johnson is a single man, living in a one room apartment, specifically for the reason of saving money. he is a lover of all things
+			Mac Johnson is a single man, living in a one room apartment, specifically for the reason of saving money. he is a lover of all things
 			technological, and devotes his life to software development. He is currently searching for a web developer that is familiar with MySql,
 			PHP, Javascript, and Java. and the position he is looking to fill has to do with overseeing the websites for 2 of his 4 small businesses.
 			he has issues with staring at a screen for long periods of time, so having a young, fresh out of college student to look over half of the
