@@ -6,6 +6,7 @@
 		<link rel="stylesheet" href="css/stylesheet.css">
 	</head>
 	<body class="text">
+		<img src="images/me.jpeg" height="10%" width="10%">
 		<h3>Christian Alexander Owens</h3>
 			<h1>Personal Website</h1>
 				<h2>Purpose</h2>
