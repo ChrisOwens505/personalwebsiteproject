@@ -56,3 +56,20 @@ Unfortunately because the updates were submitted late, I can only pass your Mile
 - *milestone1.php* should be named `milestone-1.php` - small detail I know, but precise file naming is so important. Especially for capstone where they need to be exact otherwise everything can break.
 - create a `css` directory inside of `/documentation`, and move your CSS file there. This is the correct way to organize these files. You'll need to update the path in the `<link>` tag in your HTML to match.
 - Same thing for the image file... create a directory named `images` inside `/documentation`, and move your image there. Update the `url` path in the CSS stylesheet to match.
+
+## Milestone 2&alpha; Feedback
+This is a start - but I don't think that what I'm seeing is accurate enough to base your development on. The wireframes don't line up with the content strategy very well. It's clear that they were not planned or created together. You mention a lot of content you want to feature, but I don't see it anywhere in the wireframe plans. 
+
+**I also don't see a contact form**. Where/how do you plan to feature that? The "Audience" and "Goal" sections I see in the wireframes don't belong there. That is not content you would put on your site.
+
+The scale on mobile is much too small - it's practically unreadable on that phone screen. You'll need to make sure your content is bigger than that on an actual phone.
+
+Other than these things, your layout is fairly simple and should be pretty easy to create using Bootstrap.
+
+Keep in mind that a proper wireframe should have no graphic design elements on it. It's just a blueprint. I do see you included a background texture. I'm not sure if this is what you're planning on using, but if so, you'll likely need to find or create a small image tile and repeat it across your background as a `background-image` in CSS.
+
+I also see your top navigation is on the bottom on mobile and on the top on desktop. This is easy to do using the [fixed-bottom](https://getbootstrap.com/docs/4.0/utilities/position/#fixed-bottom) class. You'll need some custom CSS to disable it using a `@media` query on large screens though.
+
+Overall I suggest you do a little more planning on your layout and practice Bootstrap a little more before you begin developing your PWP. See if you can complete the Bootstrap Challenge from beginning to end successfully before you start coding PWP. Take no more than a few days at most, otherwise you risk falling behind schedule.
+
+Your Milestone 2a passes at [Tier II](https://bootcamp-coders.cnm.edu/projects/personal/rubric/). Circle back with me if you have any questions of concerns. You will need Tier III work from here on to pass this project. Please inform your tutor of this.
