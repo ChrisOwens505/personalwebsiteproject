@@ -1,17 +1,21 @@
 head{
 text-align: center;
-	color: antiquewhite;
+	color: white;
 }
 body{
 	background-image: url("../images/black.img");
 	height: auto;
 	width: auto;
 	overflow: auto;
-	text-decoration-color: antiquewhite;
+	text-decoration-color: white;
 	position: absolute;
 	text-align: center;
 }
 .text{
-	color: blanchedalmond;
+	color: white;
 	border: medium;
+}
+.ul{
+	text-align: left;
+	float: left;
 }
