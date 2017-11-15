@@ -38,7 +38,7 @@
 				<img class="card-img-top" src="images/me.jpeg" alt="Card image cap">
 				<div class="card-body">
 					<h4 class="card-title">Christian Alexander Owens</h4>
-					<p class="card-text">My name is Christian and I am Albuquerque born and raised. I have an individual passion for each subject I'm interested in, those include computer sciences, psychology, and bio-technology. I plan to attend school and achieve a degree in bio-tech, and use my knowledge of web development to somehow integrate one into the other. My goal is
+					<p class="card-text">My name is Christian, I am Albuquerque born and raised, but I do have high                                                 aspirations to travel. I have an individual passion for each subject I'm interested in, those include computer sciences, psychology, and bio-technology. I plan to attend school and achieve a degree in bio-tech, and use my knowledge of web development to somehow integrate one into the other. My goal is
 						to purchase a property, and open my own pharmacy. Me and a close friend of mine plan to start a data center company as soon as we get on the grounds to do so, this is my main goal
 						for my future.</p>
 					<p class="card-text"><small class="text-muted">Nov. 2017</small></p>
@@ -61,13 +61,29 @@
 				</div>
 			</div>
 		</div>
-		<div class="card-deck" style="width: 32rem">
+		<p>If you have a passion, work hard and make it happen. - Unknown</p>
+		<div class="card-deck">
+			<div class="card text-white bg-dark mb-3">
+				<img class="card-img-top" src="images/medoingwalls.jpg" alt="Card image cap">
+				<div class="card-body">
+					<h4 class="card-title">Casual work</h4>
+					<p class="card-text">Here's me doing what I usually do when my dad asks for some help. He always taught me to to have a positive and tenacious work ethic</p>
+					<p class="card-text"> <small class="text-muted">Nov. 2017</small></p>
+				</div>
+			</div>
 			<div class="card text-white bg-dark mb-3">
 				<img class="card-img-top" src="images/chris.jpg" alt="Card image cap">
 				<div class="card-body">
-					<h4 class="card-title">Working</h4>
-					<p class="card-text">Here is a picture of me teaching a small child how to safely play inside of a bubble, and also giving him the attention as if I was a fellow customer playing along.</p>
-					<p class="card-text"><small class="text-muted">Mar. 2016</small></p>
+					<h4 class="card-title">Past job</h4>
+					<p class="card-text">This one's of me when i used to work at a place called ridiculous fun. It was a bubble sport and VR game establishment, and I learned a lot about working with kids and showing people how to do simple tasks. </p>
+					<p class="card-text"><small class="text-muted">Feb. 2016</small></p>
+				</div>
+			</div>
+			<div class="card text-white bg-dark mb-3">
+				<div class="card-body">
+					<h4 class="card-title">Leaving Highschool</h4>
+					<p class="card-text">This is a picture of me after I decided high school was not what I was looking for, and when i recieved my high school equivalency credential.  </p>
+					<p class="card-text"><small class="text-muted">Dec. 2016</small></p>
 				</div>
 			</div>
 		</div>
