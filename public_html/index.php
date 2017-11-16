@@ -16,7 +16,7 @@
 			<div class="collapse navbar-collapse" id="navbarTogglerDemo02">
 				<ul class="navbar-nav mr-auto mt-2 mt-md-0">
 					<li class="nav-item active">
-						<a class="nav-link text-light" href="christianowensresume.pdf">Resume<span class="sr-only">(current)</span></a>
+						<a class="nav-link text-light" href="documentation/christianowensresume.pdf">Resume<span class="sr-only">(current)</span></a>
 					</li>
 					<li>
 						<a class="nav-link text-light" href="https://github.com/ChrisOwens505">GitHub<span class="sr-only">(current)</span></a>
