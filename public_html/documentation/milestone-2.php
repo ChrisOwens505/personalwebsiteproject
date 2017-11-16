@@ -18,7 +18,7 @@
 			site will distinctly remember the most important and beneficial skills that might be detrimental to what they
 			could use me for. Links to my resume and to my social media accounts will be present at the top of the page.
 		</p>
-		<img src="images/wirefamedesktop.jpeg" alt="Desktop Wireframe">
-		<img src="images/wireframephone.jpeg" alt="Mobile Wireframe">
+		<img src="../images/wirefamedesktop.jpeg" alt="Desktop Wireframe">
+		<img src="../images/wireframephone.jpeg" alt="Mobile Wireframe">
 	</body>
 </html>
