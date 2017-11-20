@@ -73,3 +73,10 @@ I also see your top navigation is on the bottom on mobile and on the top on desk
 Overall I suggest you do a little more planning on your layout and practice Bootstrap a little more before you begin developing your PWP. See if you can complete the Bootstrap Challenge from beginning to end successfully before you start coding PWP. Take no more than a few days at most, otherwise you risk falling behind schedule.
 
 Your Milestone 2a passes at [Tier II](https://bootcamp-coders.cnm.edu/projects/personal/rubric/). Circle back with me if you have any questions of concerns. You will need Tier III work from here on to pass this project. Please inform your tutor of this.
+
+## Milestone 2b Feedback
+Nice work! Your Milestone 2b passes at [Tier III](https://bootcamp-coders.cnm.edu/projects/personal/rubric/). Here are some  notes from our meeting:
+- Fix bottom scrollbar issue by putting the other card deck in a container, row and column. 
+- Consider opening all external links in a new tab. You can do this by putting the `target="_blank"` attribute on the <a> tags.
+- Build your contact form by the morning of 11/30. We'll demo how to wire it up on that date.
+- You can remove `position: absolute;` from the body in your CSS file - it's not necessary.
