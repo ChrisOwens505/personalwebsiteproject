@@ -3,7 +3,7 @@ text-align: center;
 	color: white;
 }
 body{
-	background-image: url("../images/black.img");
+
 	height: auto;
 	width: auto;
 	overflow: auto;
@@ -14,8 +14,16 @@ body{
 .text{
 	color: white;
 	border: medium;
+	background-image: url("../images/code.jpg");
 }
 .ul{
 	text-align: left;
 	float: left;
+}
+.fa {
+	padding: 20px;
+	font-size: 30px;
+	width: 50px;
+	text-align: center;
+	text-decoration: none;
 }
