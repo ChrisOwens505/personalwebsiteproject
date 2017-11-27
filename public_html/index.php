@@ -8,13 +8,21 @@
 		<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery.form/4.2.2/jquery.form.min.js"></script>
+		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.17.0/jquery.validate.min.js"></script>
+		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.17.0/additional-methods.min.js"></script>
+		<script src="js/dexin.js"></script>
+		<script src='https://www.google.com/recaptcha/api.js'></script>
 		<title> Personal Website</title>
 		<link rel="stylesheet" href="css/stylesheet.css">
 	</head>
 	<body class="text">
+
 		<nav class="navbar navbar-expand-lg navbar-light bg-dark mb-3" >
 			<button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+
 				<span class="navbar-toggler-icon"></span>
+
 			</button>
 			<a class="navbar-brand text-white" href="https://bootcamp-coders.cnm.edu/~cowens17/personalwebsiteproject/public_html/documentation/milestone-1.php#!">C.O</a>
 			<div class="collapse navbar-collapse" id="navbarTogglerDemo02">
@@ -104,16 +112,16 @@
 							<form id="contact" action="" method="post">
 								<h3>Go Ahead!</h3>
 								<h4>I will respond as soon as I get the chance!</h4>
-								<fieldset>
+								<fieldset class="mind">
 									<input placeholder="Name?" type="text" tabindex="1" required autofocus>
 								</fieldset>
-								<fieldset>
+								<fieldset class="mind">
 									<input placeholder="Email?" type="email" tabindex="2" required>
 								</fieldset>
-								<fieldset>
+								<fieldset class="mind">
 									<input placeholder="Cell Number?" type="tel" tabindex="3" required>
 								</fieldset>
-								<fieldset>
+								<fieldset class="mind">
 									<textarea placeholder="Leave a Message" tabindex="5" required></textarea>
 								</fieldset>
 								<fieldset>
