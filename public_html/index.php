@@ -16,33 +16,35 @@
 			<button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
 				<span class="navbar-toggler-icon"></span>
 			</button>
-			<a class="navbar-brand text-success" href="https://bootcamp-coders.cnm.edu/~cowens17/personalwebsiteproject/public_html/documentation/milestone-1.php#!">My Personal Website</a>
+			<a class="navbar-brand text-white" href="https://bootcamp-coders.cnm.edu/~cowens17/personalwebsiteproject/public_html/documentation/milestone-1.php#!">C.O</a>
 			<div class="collapse navbar-collapse" id="navbarTogglerDemo02">
 				<ul class="navbar-nav mr-auto mt-2 mt-md-0">
 					<li class="nav-item active">
-						<a class="nav-link text-success" href="documentation/christianowensresume.pdf">Résumé<span class="sr-only">(current)</span></a>
+						<a class="nav-link text-white" href="documentation/christianowensresume.pdf">Résumé<span class="sr-only">(current)</span></a>
 					</li>
 					<li>
-						<a class="nav-link fa fa-github text-success" href="https://github.com/ChrisOwens505" target="_blank"><span class="sr-only">(current)</span></a>
+						<a class="nav-link fa fa-github text-white" href="https://github.com/ChrisOwens505" target="_blank"><span class="sr-only">(current)</span></a>
 					</li>
 					<li>
-						<a class="nav-link fa fa-linkedin text-success" href="https://www.linkedin.com/in/christian-owens-3930a2143/" target="_blank"><span class="sr-only">(current)</span></a>
+						<a class="nav-link fa fa-linkedin text-white" href="https://www.linkedin.com/in/christian-owens-3930a2143/" target="_blank"><span class="sr-only">(current)</span></a>
 					</li>
 					<li>
-						<a class="nav-link fa fa-facebook text-success" href="https://www.facebook.com/mr.mactastic" target="_blank"><span class="sr-only">(current)</span></a>
+						<a class="nav-link fa fa-facebook text-white" href="https://www.facebook.com/mr.mactastic" target="_blank"><span class="sr-only">(current)</span></a>
 					</li>
 					<li>
-						<a class="nav-link fa fa-twitter text-success" href="https://twitter.com/C0derChris" target="_blank"><span class="sr-only">(current)</span></a>
+						<a class="nav-link fa fa-twitter text-white" href="https://twitter.com/C0derChris" target="_blank"><span class="sr-only">(current)</span></a>
 					</li>
 				</ul>
 			</div>
 		</nav>
-
+		<div class="parallax-container">
+			<div class="parallax"><img src="images/programmar.jpeg"></div>
+		</div>
 		<div class="container-fluid">
 			<div class="row">
 				<div class="col">
 					<div class="card-deck">
-						<div class="card text-success bg-dark mb-3">
+						<div class="card text-white bg-dark mb-3">
 							<img class="card-img-top" src="images/me.jpeg" alt="Card image cap">
 							<div class="card-body">
 								<h4 class="card-title">Christian Alexander Owens</h4>
@@ -52,7 +54,7 @@
 								<p class="card-text"><small class="text-muted">Nov. 2017</small></p>
 							</div>
 						</div>
-						<div class="card text-success bg-dark mb-3">
+						<div class="card text-white bg-dark mb-3">
 							<img class="card-img-top" src="images/meandelchapo.jpeg" alt="Card image cap">
 							<div class="card-body">
 								<h4 class="card-title">Trip To Mexico</h4>
@@ -60,7 +62,7 @@
 								<p class="card-text"><small class="text-muted">Feb. 2016</small></p>
 							</div>
 						</div>
-						<div class="card text-success bg-dark mb-3">
+						<div class="card text-white bg-dark mb-3">
 							<img class="card-img-top" src="images/meandmydad.jpeg" alt="Card image cap">
 							<div class="card-body">
 								<h4 class="card-title">Leaving Highschool</h4>
@@ -76,7 +78,7 @@
 	<div class="row">
 		<div class="col">
 			<div class="card-deck">
-				<div class="card text-success bg-dark mb-3">
+				<div class="card text-white bg-dark mb-3">
 					<img class="card-img-top" src="images/itsjustdrywall.jpeg" alt="Card image cap">
 					<div class="card-body">
 						<h4 class="card-title">Casual work</h4>
@@ -84,7 +86,7 @@
 						<p class="card-text"> <small class="text-muted">Sept. 2017</small></p>
 					</div>
 				</div>
-				<div class="card text-success bg-dark mb-3">
+				<div class="card text-white bg-dark mb-3">
 					<img class="card-img-top" src="images/pastwork.jpeg">
 					<div class="card-body">
 						<h4 class="card-title">Past Employment</h4>
@@ -92,7 +94,7 @@
 						<p class="card-text"><small class="text-muted">Feb. 2017</small></p>
 					</div>
 				</div>
-				<div class="card text-success bg-dark mb-3">
+				<div class="card text-white bg-dark mb-3">
 					<img class="card-img-bottom" src="images/meinpaint.jpeg" >
 					<div class="card-body">
 						<p>
