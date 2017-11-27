@@ -15,6 +15,8 @@ body{
 	color: white;
 	border: medium;
 	background-image: url("../images/othercode.png");
+	background-attachment: fixed;
+
 }
 .ul{
 	text-align: left;
@@ -27,10 +29,15 @@ body{
 	text-align: center;
 	text-decoration: none;
 }
-.parallax-container {
+.media {
 	height: 100%;
 	margin-bottom: 20px;
 }
 .mind{
-	margin-bottom: 4px;
+	margin-top: 4px;
+	margin-bottom: 6px;
+	margin-left: 8px;
+}
+.submit{
+	border-color: green;
 }
