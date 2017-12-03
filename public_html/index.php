@@ -18,13 +18,13 @@
 	</head>
 	<body class="text">
 
-		<nav class="navbar navbar-expand-lg navbar-light bg-dark mb-3 border border-success" >
-			<button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+		<nav class="navbar navbar-expand-lg navbar-light mb-3 " >
+			<button class="navbar-toggler navbar-toggler-right bg-white" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
 
 				<span class="navbar-toggler-icon"></span>
 
 			</button>
-			<a class="navbar-brand text-white" href="https://bootcamp-coders.cnm.edu/~cowens17/personalwebsiteproject/public_html/documentation/milestone-1.php#!">C.O</a>
+			<a class="navbar-brand text-white" href="https://bootcamp-coders.cnm.edu/~cowens17/personalwebsiteproject/public_html/">C.O</a>
 			<div class="collapse navbar-collapse" id="navbarTogglerDemo02">
 				<ul class="navbar-nav mr-auto mt-2 mt-md-0">
 					<li>
@@ -60,24 +60,24 @@
 				<div class="col">
 					<div class="card-deck">
 						<div class="card text-white bg-dark mb-3">
-							<img class="card-img-top border border-success" src="images/me.jpeg" alt="Card image cap">
-							<div class="card-body border border-success">
+							<img class="card-img-top border border-white" src="images/me.jpeg" alt="Card image cap">
+							<div class="card-body border border-white">
 								<h4 class="card-title">Christian Alexander Owens</h4>
 								<p class="card-text">My name is Christian, I am Albuquerque born and raised, but continuously distressed by my tenacious                                                 aspirations to travel. I have independent passions for each subject I enjoy to invest my time into, they include web development, minor psychology, and bio-technology( bio-medicine). I plan to soon attend classes at CNM to achieve a bachelors degree in bio-medicine, while at the same time, using my knowledge of web development to create a comfortable starting point for myself. My personal goal is to purchase a property, and open my own pharmacy. Me and a close friend of mine plan to start a data center company as soon as we get on the grounds to do so, this is the main goal for my future.</p>
 								<p class="card-text"><small class="text-muted">Nov. 2017</small></p>
 							</div>
 						</div>
 						<div class="card text-white bg-dark mb-3">
-							<img class="card-img-top border border-success" src="images/meandelchapo.jpeg" alt="Card image cap">
-							<div class="card-body border border-success">
+							<img class="card-img-top border border-white" src="images/meandelchapo.jpeg" alt="Card image cap">
+							<div class="card-body border border-white">
 								<h4 class="card-title">Trip To Mexico</h4>
 								<p class="card-text">This is me when I went on a seven day missionary trip to mexico. We built houses for locals with unfortunate living conditions, and I personally got to practice leadership in a group of other teenagers that I was assigned to work with.</p>
 								<p class="card-text"><small class="text-muted">Feb. 2016</small></p>
 							</div>
 						</div>
 						<div class="card text-white bg-dark mb-3">
-							<img class="card-img-top border border-success" src="images/meandmydad.jpeg" alt="Card image cap">
-							<div class="card-body border border-success">
+							<img class="card-img-top border border-white" src="images/meandmydad.jpeg" alt="Card image cap">
+							<div class="card-body border border-white">
 								<h4 class="card-title">Leaving Highschool</h4>
 								<p class="card-text">This is a picture of me after I decided high school was not what I was looking for, so, I decided to leave and receive my high school equivalency credential. Soon after, I went to give a college a try at the age of 16. </p>
 								<p class="card-text"><small class="text-muted">Dec. 2016</small></p>
@@ -92,24 +92,24 @@
 		<div class="col">
 			<div class="card-deck">
 				<div class="card text-white bg-dark mb-3">
-					<img class="card-img-top border border-success" src="images/itsjustdrywall.jpeg" alt="Card image cap">
-					<div class="card-body border border-success">
+					<img class="card-img-top border border-white" src="images/itsjustdrywall.jpeg" alt="Card image cap">
+					<div class="card-body border border-white">
 						<h4 class="card-title">Casual work</h4>
 						<p class="card-text">Here's me doing what I usually do when my dad asks for some help. He has always taught me to to have a positive and tenacious work ethic.</p>
 						<p class="card-text"> <small class="text-muted">Sept. 2017</small></p>
 					</div>
 				</div>
 				<div class="card text-white bg-dark mb-3">
-					<img class="card-img-top border border-success" src="images/pastwork.jpeg">
-					<div class="card-body border border-success">
+					<img class="card-img-top border border-white" src="images/pastwork.jpeg">
+					<div class="card-body border border-white">
 						<h4 class="card-title">Past Employment</h4>
 						<p class="card-text">This one's of me when I used to work at a place called ridiculous fun. It was a bubble sport and VR game establishment, and I learned a lot about working with kids and showing people how to do simple tasks. </p>
 						<p class="card-text"><small class="text-muted">Feb. 2017</small></p>
 					</div>
 				</div>
 				<div class="card text-white bg-dark mb-3">
-					<img class="card-img-bottom border border-success" src="images/meinpaint.jpeg" >
-					<div class="card-body border border-success">
+					<img class="card-img-bottom border border-white" src="images/meinpaint.jpeg" >
+					<div class="card-body border border-white">
 						<p>
 							If you have any questions regarding employment, interests, or you may just want to leave me a message, feel free to contact me!
 						</p>

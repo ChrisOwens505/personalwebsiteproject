@@ -41,3 +41,9 @@ body{
 .submit{
 	border-color: green;
 }
+.card-img-top{
+	background-color: black;
+}
+.card-background{
+	background-color: black;
+}
