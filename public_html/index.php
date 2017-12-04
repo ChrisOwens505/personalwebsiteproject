@@ -2,6 +2,7 @@
 <html>
 	<head>
 		<meta charset="utf-8">
+		<link rel="stylesheet" href="font-awesome-animation.min.css">
 		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
@@ -28,7 +29,7 @@
 			<div class="collapse navbar-collapse" id="navbarTogglerDemo02">
 				<ul class="navbar-nav mr-auto mt-2 mt-md-0">
 					<li>
-						<a class="nav-link fa fa-github text-white" href="https://github.com/ChrisOwens505" target="_blank"><span class="sr-only">(current)</span></a>
+						<a class="nav-link fa fa-github text-white faa faa-bounce" href="https://github.com/ChrisOwens505" target="_blank"><span class="sr-only">(current)</span></a>
 					</li>
 					<li>
 						<a class="nav-link fa fa-linkedin text-white" href="https://www.linkedin.com/in/christian-owens-3930a2143/" target="_blank"><span class="sr-only">(current)</span></a>
@@ -45,8 +46,8 @@
 				</ul>
 			</div>
 		</nav>
+		<img class="mr-3" src="images/awatts.jpg" alt="Alan Watts">
 		<div class="media">
-			<img class="mr-3" src="images/awatts.jpg" alt="Alan Watts">
 			<div class="media-body">
 				<h5 class="mt-0">The Dream Of Life.</h5>
 				<p>
@@ -63,7 +64,7 @@
 							<img class="card-img-top border border-white" src="images/me.jpeg" alt="Card image cap">
 							<div class="card-body border border-white">
 								<h4 class="card-title">Christian Alexander Owens</h4>
-								<p class="card-text">My name is Christian, I am Albuquerque born and raised, but continuously distressed by my tenacious                                                 aspirations to travel. I have independent passions for each subject I enjoy to invest my time into, they include web development, minor psychology, and bio-technology( bio-medicine). I plan to soon attend classes at CNM to achieve a bachelors degree in bio-medicine, while at the same time, using my knowledge of web development to create a comfortable starting point for myself. My personal goal is to purchase a property, and open my own pharmacy. Me and a close friend of mine plan to start a data center company as soon as we get on the grounds to do so, this is the main goal for my future.</p>
+								<p class="card-text">My name is Christian, I am Albuquerque born and raised, but continuously distressed by my tenacious                                                 aspirations to travel. I have independent passions for each subject I enjoy to invest my time into, they include web development, minor psychology, and bio-technology (bio-medicine). I plan to soon attend classes at CNM to achieve a bachelors degree in bio-medicine, while at the same time, using my knowledge of web development to create a comfortable starting point for myself. My personal goal is to purchase a property, and open my own pharmacy. Me and a close friend of mine plan to start a data center company as soon as we get on the grounds to do so, this is the main goal for my future.</p>
 								<p class="card-text"><small class="text-muted">Nov. 2017</small></p>
 							</div>
 						</div>
@@ -117,16 +118,16 @@
 							<form id="contact" action="" method="post">
 								<h3>Go Ahead!</h3>
 								<h4>I will respond to your message very soon.</h4>
-								<fieldset class="mind">
+								<fieldset class="mind" id="name">
 									<input placeholder="Name?" type="text" tabindex="1" required autofocus>
 								</fieldset>
-								<fieldset class="mind">
+								<fieldset class="mind" id="email">
 									<input placeholder="Email?" type="email" tabindex="2" required>
 								</fieldset>
-								<fieldset class="mind">
+								<fieldset class="mind" id="cell">
 									<input placeholder="Cell?" type="tel" tabindex="3" required>
 								</fieldset>
-								<fieldset class="mind">
+								<fieldset class="mind" id="message">
 									<textarea placeholder="Leave a Message" tabindex="5" required></textarea>
 								</fieldset>
 								<fieldset>
