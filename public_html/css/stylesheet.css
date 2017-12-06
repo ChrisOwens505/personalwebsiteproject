@@ -8,6 +8,8 @@ body{
 	border: medium;
 	background-image: url("../images/othercode.png");
 	background-attachment: fixed;
+	position: center;
+	text-align: center;
 
 }
 .fa {
