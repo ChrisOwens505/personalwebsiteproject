@@ -1,19 +1,15 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<!-- Meta Tags -->
+
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-		/**
-		* CSS/bootstrap
-		*/
+
 		<link rel="stylesheet" href="css/stylesheet.css">
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" crossorigin="anonymous">
 
-		/**
-		* JavaScript
-		*/
+
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" crossorigin="anonymous"></script>
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" crossorigin="anonymous"></script>
@@ -124,6 +120,11 @@
 									</fieldset>
 									<div class="g-recaptcha minds" data-sitekey="6LeulToUAAAAAP59sSZHuqUdkrhDk1b-RBKuRpLP"></div>
 								</form>
+								<div class="row">
+									<div class="col-xs-12">
+										<div id="output-area"></div>
+									</div>
+								</div>
 							</div>
 						</div>
 					</div>
