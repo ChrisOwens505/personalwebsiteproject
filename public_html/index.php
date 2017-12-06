@@ -5,13 +5,14 @@
 		<link rel="stylesheet" href="font-awesome-animation.min.css">
 		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" crossorigin="anonymous">
+
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" crossorigin="anonymous"></script>
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
 		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery.form/4.2.2/jquery.form.min.js"></script>
 		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.17.0/jquery.validate.min.js"></script>
 		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.17.0/additional-methods.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.slim.min.js"></script>
 		<script src="js/dexin.js"></script>
 		<script src='https://www.google.com/recaptcha/api.js'></script>
 		<title> Personal Website</title>
@@ -41,7 +42,7 @@
 						<a class="nav-link fa fa-twitter text-white" href="https://twitter.com/C0derChris" target="_blank"><span class="sr-only">(current)</span></a>
 					</li>
 					<li class="nav-item active">
-						<a class="nav-link text-white" href="documentation/christianowensresume.pdf">Résumé<span class="sr-only">(current)</span></a>
+						<a class="nav-link text-white" href="christianowensresume.pdf">Résumé<span class="sr-only">(current)</span></a>
 					</li>
 				</ul>
 			</div>
@@ -80,8 +81,8 @@
 						<div class="card text-white bg-dark mb-3">
 							<img class="card-img-top border border-white" src="images/meandmatt.jpg" alt="Card image cap">
 							<div class="card-body border border-white">
-								<form id="#contact" action="" method="post">
-									<h4>I Love Programming</h4>
+								<form id="#chris-contact-form" action="" method="post">
+									<h4>I Love Programming!</h4>
 									<p>I am looking for any opportunity that may be available to me. As long as I can get my hands onto some code, I'll never lose the passion i have for this profession. </p>
 									<h3>Feel Free To Contact Me!</h3>
 									<h4>I will respond to your message very soon.</h4>
@@ -100,6 +101,7 @@
 									<fieldset>
 										<button name="submit" type="submit" id="contact-submit" class="submit" data-submit="...Sending">Submit</button>
 									</fieldset>
+									<div class="g-recaptcha" data-sitekey="6LeulToUAAAAAP59sSZHuqUdkrhDk1b-RBKuRpLP"></div>
 								</form>
 							</div>
 						</div>
