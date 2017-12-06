@@ -1,27 +1,30 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		/** Meta Tags
+		<!-- Meta Tags -->
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 		/**
 		* CSS/bootstrap
 		*/
 		<link rel="stylesheet" href="css/stylesheet.css">
-		<link rel="stylesheet" href="font-awesome-animation.min.css">
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" crossorigin="anonymous">
-		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" crossorigin="anonymous"></script>
+
 		/**
 		* JavaScript
 		*/
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" crossorigin="anonymous"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" crossorigin="anonymous"></script>
+
 		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery.form/4.2.2/jquery.form.min.js"></script>
 		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.17.0/jquery.validate.min.js"></script>
 		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.17.0/additional-methods.min.js"></script>
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.slim.min.js"></script>
+
 		<script src="js/form-validate.js"></script>
 		<script src='https://www.google.com/recaptcha/api.js'></script>
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" crossorigin="anonymous"></script>
+
 		<title> Personal Website</title>
 	</head>
 
@@ -104,17 +107,17 @@
 									<h3>Feel Free To Contact Me!</h3>
 									<h4>I will respond to your message very soon.</h4>
 									<form id="contact-form" action="php/mailer.php" method="post" novalidate>
-									<fieldset class="mind" id="name" name="name">
-										<input placeholder="Name?" type="text" tabindex="1" required autofocus>
+									<fieldset class="mind" id="name">
+										<input placeholder="Name?" type="text" tabindex="1" name="name" required autofocus>
 									</fieldset>
-									<fieldset class="mind" id="email" name="email">
-										<input placeholder="Email?" type="email" tabindex="2" required>
+									<fieldset class="mind" id="email">
+										<input placeholder="Email?" type="email" tabindex="2" name="email" required>
 									</fieldset>
-									<fieldset class="mind" id="cell" name="cell">
-										<input placeholder="Cell?" type="tel" tabindex="3" required>
+									<fieldset class="mind" id="cell">
+										<input placeholder="Cell?" type="tel" tabindex="3" name="cell" required>
 									</fieldset>
-									<fieldset class="mind" id="message" name="message">
-										<textarea placeholder="Leave a Message" tabindex="5" required></textarea>
+									<fieldset class="mind" id="message">
+										<textarea placeholder="Leave a Message" tabindex="5" name="message" required></textarea>
 									</fieldset>
 									<fieldset>
 										<button name="submit" type="submit" id="contact-submit" class="submit mind" data-submit="...Sending">Submit</button>

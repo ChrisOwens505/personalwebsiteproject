@@ -14,7 +14,7 @@ $(document).ready(function(){
 	 **/
 
 	/* begin validate function here */
-	$("#chris-contact-form").validate({
+	$("#contact-form").validate({
 
 		// setup handling of form errors
 		debug: true,
@@ -26,11 +26,17 @@ $(document).ready(function(){
 		// each rule starts with the form input element's NAME attribute
 		rules: {
 			name: {
-				required: true
+				required: true,
+				maxlength: 30
 			},
 			email: {
 				email: true,
-				required: true
+				required: true,
+				maxlength: 128
+			},
+			cell: {
+				required: true,
+				maxlength: 10
 			},
 			message: {
 				required: true,
@@ -41,11 +47,17 @@ $(document).ready(function(){
 		// error messages to display to the end user when rules above don't pass
 		messages: {
 			name: {
-				required: "Please enter your name."
+				required: "Please enter your name.",
+				maxlength: "Your name is too long!"
 			},
 			email: {
 				email: "Please enter a valid email address.",
-				required: "Please enter a valid email address."
+				required: "Please enter a valid email address.",
+				maxlength: "Your email is too long!"
+			},
+			cell: {
+				required: "A cell number is required.",
+				maxlength: "10 numbers"
 			},
 			message: {
 				required: "Please enter a message.",
