@@ -2,21 +2,26 @@
 <html>
 	<head>
 		<meta charset="utf-8">
+		/**
+		* CSS/bootstrap links
+		*/
+		<link rel="stylesheet" href="css/stylesheet.css">
 		<link rel="stylesheet" href="font-awesome-animation.min.css">
 		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" crossorigin="anonymous">
-
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" crossorigin="anonymous"></script>
-		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" crossorigin="anonymous"></script>
+		/**
+		* JavaScript Links
+		*/
 		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery.form/4.2.2/jquery.form.min.js"></script>
 		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.17.0/jquery.validate.min.js"></script>
 		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.17.0/additional-methods.min.js"></script>
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.slim.min.js"></script>
-		<script src="js/dexin.js"></script>
+		<script src="js/form-validate.js"></script>
 		<script src='https://www.google.com/recaptcha/api.js'></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" crossorigin="anonymous"></script>
 		<title> Personal Website</title>
-		<link rel="stylesheet" href="css/stylesheet.css">
 	</head>
 
 	<body class="text">
@@ -81,27 +86,27 @@
 						<div class="card text-white bg-dark mb-3">
 							<img class="card-img-top border border-white" src="images/meandmatt.jpg" alt="Card image cap">
 							<div class="card-body border border-white">
-								<form id="#chris-contact-form" action="" method="post">
 									<h4>I Love Programming!</h4>
 									<p>I am looking for any opportunity that may be available to me. As long as I can get my hands onto some code, I'll never lose the passion i have for this profession. </p>
 									<h3>Feel Free To Contact Me!</h3>
 									<h4>I will respond to your message very soon.</h4>
-									<fieldset class="mind" id="name">
+									<form id="contact-form" action="php/mailer.php" method="post" novalidate>
+									<fieldset class="mind" id="name" name="name">
 										<input placeholder="Name?" type="text" tabindex="1" required autofocus>
 									</fieldset>
-									<fieldset class="mind" id="email">
+									<fieldset class="mind" id="email" name="email">
 										<input placeholder="Email?" type="email" tabindex="2" required>
 									</fieldset>
-									<fieldset class="mind" id="cell">
+									<fieldset class="mind" id="cell" name="cell">
 										<input placeholder="Cell?" type="tel" tabindex="3" required>
 									</fieldset>
-									<fieldset class="mind" id="message">
+									<fieldset class="mind" id="message" name="message">
 										<textarea placeholder="Leave a Message" tabindex="5" required></textarea>
 									</fieldset>
 									<fieldset>
-										<button name="submit" type="submit" id="contact-submit" class="submit" data-submit="...Sending">Submit</button>
+										<button name="submit" type="submit" id="contact-submit" class="submit mind" data-submit="...Sending">Submit</button>
 									</fieldset>
-									<div class="g-recaptcha" data-sitekey="6LeulToUAAAAAP59sSZHuqUdkrhDk1b-RBKuRpLP"></div>
+									<div class="g-recaptcha minds" data-sitekey="6LeulToUAAAAAP59sSZHuqUdkrhDk1b-RBKuRpLP"></div>
 								</form>
 							</div>
 						</div>
