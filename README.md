@@ -80,3 +80,23 @@ Nice work! Your Milestone 2b passes at [Tier III](https://bootcamp-coders.cnm.ed
 - Consider opening all external links in a new tab. You can do this by putting the `target="_blank"` attribute on the <a> tags.
 - Build your contact form by the morning of 11/30. We'll demo how to wire it up on that date.
 - You can remove `position: absolute;` from the body in your CSS file - it's not necessary.
+ 
+ ## PWP Final Feedback
+Your PWP looks fantastic - I really like your choice of presentation, style, and content. Really nice work!
+
+Nice work also on getting the major technical issues fixed - your contact form is working now and there are no longer any issues with dependencies. Since these issues were corrected after the deadline (8:00 am on 12/6), unfortunately this I must factor that into the final grade.
+
+The one thing that had me stumped is why the page loads in the browser so far down the page. In order to figure this out I needed to download and deploy your project - I wasn't having much luck using devtools... I found that the issue has to do with the Alan Watts image at the top. Remove the image, and the issue is gone. This is a very strange problem - one I've never seen before - and it could be a Bootstrap bug. I'll continue to look at it. Overall your HTML is looking good. There is one element that is unclosed, see Edits &amp; Suggestions below.
+
+Your PWP passes at [Tier II](https://bootcamp-coders.cnm.edu/projects/personal/rubric/). Your overall grade across all of your PWP Milestones is 19/40 points (47.5%).
+
+- Milestone 1 - 20%: Tier I 10(0.2) = 2
+- Milestone 2a - 20%: Tier II 20(0.2) = 4
+- Milestone 2b - 10%: Tier III 30(0.1) = 3
+- Milestone 3 - 50%: Tier II 20(0.5) = 10
+
+### Edits &amp; Suggestions
+- Place a closing `</div>` immediately after line 132. That `.container-fluid` isn't closed.
+- Clean up the layout around the contact form a bit for a more professional look. I recommend using the built-in Bootstrap form classes to make the job easier.
+- Think about opening your resume in a new tab.
+- Using some of the built-in Bootstrap classes for margin and padding might have made your styling a bit easier. See here: https://getbootstrap.com/docs/4.0/utilities/spacing/
